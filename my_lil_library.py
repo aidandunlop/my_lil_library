@@ -23,9 +23,7 @@ def hello(name):
     click.echo(f"Hello {name}!")
 
 
-@click.group(
-    help="CLI tool to bridge development environments with remote KFP clusters"
-)
+@click.group(help="Example CLI tool")
 def mylilcli():
     click.secho(f"Running my lil library...", fg="blue")
 
