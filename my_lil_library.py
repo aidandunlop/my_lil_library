@@ -25,7 +25,7 @@ def hello(name):
 
 @click.group(help="Example CLI tool")
 def mylilcli():
-    click.secho(f"Running my lil library...", fg="blue")
+    click.secho("Running my lil library...", fg="blue")
 
 
 mylilcli.add_command(hello)
